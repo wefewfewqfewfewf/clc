@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+
+    android:background="@drawable/sdf"
+
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    tools:context=".MainActivity"
+    tools:ignore="ExtraText">
+    >
+    <Button
+        android:id="@+id/incrementButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="klikaj"
+
+        />
+
+    <Button
+        android:id="@+id/resetButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Reset"
+        />
+
+    <Switch
+        android:id="@+id/switchButton"
+        android:layout_width="288dp"
+        android:layout_height="wrap_content"
+        android:minHeight="48dp"
+        android:text="dodaj/ujmij"
+        android:textColor="#ff3300"
+        android:textSize="26dp" />
+
+    <TextView
+        android:id="@+id/pointsTextView"
+        android:layout_width="245dp"
+        android:layout_height="wrap_content"
+        android:text="Punktunie: 0"
+        android:textColor="#ff3300"
+        android:textSize="24sp" />
+
+</LinearLayout>
